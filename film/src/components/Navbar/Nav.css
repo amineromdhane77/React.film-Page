@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 40px;
+    color: rgb(238, 228, 220);
+}
+.logo-nav{
+    font-size: 40px;
+    font-weight: 500;
+    color: #f5ab0a;
+}
+.logo-nav span{
+    color:azure;
+}
+.nav-menu{
+display: flex;
+align-items: center;
+gap: 80PX;
+list-style: none;
+font-size: 25px;
+cursor: pointer;
+}
+.nav-menu li:hover{
+    background: rgb(237, 135, 9);
+}
+.nav-avis{
+    border-radius: 50px;
+    padding: 10PX 38px;
+    background: white;
+    color: black;
+}

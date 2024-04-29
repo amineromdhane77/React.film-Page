@@ -1,0 +1,46 @@
+.hero{
+    margin: 0px 120px;
+    margin-top: 170px;
+}
+.hero-title{
+    font-size: 30px;
+    color: rgb(237, 135, 9);
+}
+.hero-text{
+    color: white;
+    font-size: 20PX;
+    font-weight: 300;
+ 
+}
+.hero-dot-play{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-dots{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    gap: 24PX;
+}
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: rgb(237, 135, 9);
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.hero-dot.orange{
+    background: orangered;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+    cursor: pointer;
+}
+.hero-play h2{
+    color: rgb(237, 135, 9);
+    font-size: 25px;
+}
